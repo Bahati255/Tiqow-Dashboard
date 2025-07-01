@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background: #e7efe0;
+  font-family: 'Segoe UI', sans-serif;
+}
+.navbar {
+  background: #28a745;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .btn {
+  background: white;
+  color: #28a745;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+}
+.count {
+  font-size: 40px;
+  color: #28a745;
+  text-align: center;
+}
+.btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.ticket {
+  border: 1px solid #28a745;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
